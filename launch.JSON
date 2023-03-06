@@ -1,0 +1,15 @@
+{
+    "type": "node",
+    "request": "launch",
+    "name": "Launch Program",
+    "runtimeArgs": ["--inspect-brk=0.0.0.0:9229"],
+    "port": 9229,
+    "address": "localhost",
+    "internalConsoleOptions": "neverOpen",
+    "skipFiles": [
+        "<node_internals>/**"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
